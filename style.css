@@ -1,0 +1,438 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    font-family: 'Voltaire';
+    overflow: hidden;
+}
+
+.body
+{
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+.header
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last4
+{
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    border-radius: 100%;
+    position: relative;    
+    top: .1rem;
+}
+
+.clip
+{
+    width: 64px;
+    height: 96px;
+    position: relative; 
+    top: -15px;
+    left: -4px;
+}
+
+.middle-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mid-icons
+{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.end-section
+{
+    display: flex;
+}
+
+.last1
+{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.fa-x-twitter
+{
+    font-size: 40px;
+}
+
+.logo-text
+{
+    font-size: 20px;
+    font-family: 'Nothing You Could Do';
+    font-weight: bolder;
+
+}
+
+.top
+{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-p
+{
+    display: flex;
+}
+
+.trio
+{
+    padding: 10px;
+    margin: 0 3px;
+}
+
+.paragraph-marin
+{
+    padding: 0 20px;
+    display: flex;
+}
+
+.section-boxes
+{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 15px 0 0 15px;
+}
+
+.box2
+{
+    padding: 1rem;
+}
+
+.box3
+{
+    padding: 1rem;
+}
+
+.box4
+{
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4
+{
+    width: 24.9%;
+    background-color: white;
+}
+
+.section1
+{
+    background-color: rgb(238, 238, 238);
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.section2
+{
+    background-color: rgb(238, 238, 238);
+    margin: 10px 0;
+    border-radius: 20px;   
+}
+
+.section1-last-part
+{
+    padding: 1rem;
+}
+
+.image-section
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1
+{
+    border-radius: 10px;
+    width: 380px;
+    height: 280px;
+    margin: 0 1rem;
+    position: relative;
+}
+
+.img-h
+{
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+
+.money
+{
+    background-color: rgba(0, 0, 0, 0.495);
+    padding: 10px;
+    color: white;
+    width: max-content;
+    border-radius: 10px;
+    position: absolute;
+    top: .5rem;
+    left: 0.5rem;
+}
+
+.love
+{
+    background-color: rgba(0, 0, 0, 0.495);
+    padding: 10px;
+    color: white;
+    width: max-content;
+    border-radius: 10px;
+    position: absolute;
+    top: .5rem;
+    left: 20.0rem;
+}
+
+.names
+{
+    background-color: rgba(0, 0, 0, 0.495);
+    padding: 10px;
+    color: white;
+    width: max-content;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+}
+
+.top-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.bottom-row1
+{
+    display: flex;
+}
+
+.parts1
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.image img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 0 20px 0 20px;
+    margin: 10px;
+}
+
+.ic-top
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.ic-top h3
+{
+    font-size: 30px;
+}
+
+.ic-top span
+{
+    margin-top: 5px;
+}
+
+.ic-bottom
+{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.ic-bottom a
+{
+    background-color: rgba(0, 0, 0, 0.945);
+    padding: 10px 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.main2
+{
+    width: 1240px;
+    height: 550px;
+    padding: 10px;
+    position: relative;
+}
+
+.img-container
+{
+    width: 1217px;
+    height: 527px;
+}
+
+.img-container img
+{
+    width: 1210px;
+    height: 520px;
+    z-index: -2;
+}
+
+.dime1
+{
+    background-color: rgba(255, 255, 255, 0.776);
+    color: black;
+    position: absolute;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    bottom: 190px;
+    left: 120px;
+    font-weight:  bold;
+}
+
+.circle1
+{
+    background-color: rgba(255, 255, 255, 0.776);
+    color: black;
+    position: absolute;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 100%;
+    bottom: 130px;
+    left: 125px;
+}
+
+.dime2
+{
+    background-color: rgba(255, 255, 255, 0.776);
+    color: black;
+    position: absolute;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    bottom: 150px;
+    right: 120px;
+    font-weight:  bold;
+}
+
+.circle2
+{
+    background-color: rgba(255, 255, 255, 0.776);
+    color: black;
+    position: absolute;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 100%;
+    bottom: 90px;
+    right: 125px;
+}
+
+.circle3
+{
+    background-color: rgba(255, 255, 255, 0.776);
+    color: black;
+    position: absolute;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 100%;
+    bottom: 30%;
+    right: 50%;
+}
+
+.boxed
+{
+    padding: 10px;
+    max-width: 228px;
+    height: 260px;
+    position: absolute;
+    bottom: 250px;
+    left: 39%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.boxed img
+{
+    height: 100px;
+    width: 196px;    
+    border-radius: 20px;
+}
+
+.boxed a
+{
+    padding: 16px;
+    font-size: 18px;
+    background-color: rgb(0, 196, 130);
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.straight
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-item
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    left: 47%;
+    bottom: 45%;
+}
